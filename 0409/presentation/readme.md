@@ -13,18 +13,18 @@
 ---
 > ![슬라이드5](https://github.com/22seul/System/assets/143988446/730043f1-d2a2-43b5-aadd-fd7565034292)
 > * 이제 실습을 해보겠습니다.
-1.	mkdir ex1 - 일단 실습할 ex1 디렉토리를 만들어 보겠습니다.
-2.	cd ex1 – 네, 디렉토리 들어가고
-3.	vi test.c – test.c 파일을 작성해 주겠습니다.
-4.	#include<stdio.h>
+> > 1.	mkdir ex1 - 일단 실습할 ex1 디렉토리를 만들어 보겠습니다.
+> > 2.	cd ex1 – 네, 디렉토리 들어가고
+> > 3.	vi test.c – test.c 파일을 작성해 주겠습니다.
+> > 4.	#include<stdio.h>
 int main(int argc, char* argv[]){ - 일단 인자를 받기 위해 argument count, argument vector를 적고
-5.	printf(“인자 수 : %d\n”,argc); - 인자 수 즉 argument count 의 값을 출력하도록 print문을 적어줍니다.
-6.	for(int i=0;i<argc;i++)
+> > 5.	printf(“인자 수 : %d\n”,argc); - 인자 수 즉 argument count 의 값을 출력하도록 print문을 적어줍니다.
+> > 6.	for(int i=0;i<argc;i++)
 printf(“argv[%d] : %s\n”,I,argv[i]); - 인자 수 만큼 argument vector안의 값을 출력하는 for문을 작성해 주고
-7.	esc + :wq : 이제 저장하고 나가줍니다.
-8.	make test : 저번주에 배운 make를 이용하여 컴파일 시켜 주고
-9.	./test 시스템프로그래밍 화요일 5시부터 8시까지 – 제가 공백으로 나눠서 4개의 인자를 전달해 실행시켜 주겠습니다.
-10.	그러면 이제 앞서 설명대로 argv[0]에는 프로그램 실행경로가 들어가게 되고, 1부터 4까지는 제가 전달한 인수들로 출력되는 것을 볼 수 있습니다.
+> > 7.	esc + :wq : 이제 저장하고 나가줍니다.
+> > 8.	make test : 저번주에 배운 make를 이용하여 컴파일 시켜 주고
+> > 9.	./test 시스템프로그래밍 화요일 5시부터 8시까지 – 제가 공백으로 나눠서 4개의 인자를 전달해 실행시켜 주겠습니다.
+> > 10.	그러면 이제 앞서 설명대로 argv[0]에는 프로그램 실행경로가 들어가게 되고, 1부터 4까지는 제가 전달한 인수들로 출력되는 것을 볼 수 있습니다.
 ---
 > ![슬라이드6](https://github.com/22seul/System/assets/143988446/aab19727-0515-4e91-a871-09d1a328ee31)
 ---
