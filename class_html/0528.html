@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System - 0528</title>
+    <style>
+         body{
+            background-color: #1b1b1b;
+        }
+        @font-face {
+            font-family: myFont;
+            src: url('온글잎 이반반.ttf');
+        }
+        .header{
+            position: fixed;
+            margin: 0;
+            top: 1vh;
+            left: 1vw;
+            color: #FFFFFF;;
+            font-family: myFont;
+            font-size: 4.5vw;
+            font-weight: 100;
+        }
+        .hr{
+            position: fixed;
+            top : 5vw;
+            left: 0;
+            width: 100vw;
+            border: 2px solid #FFFFFF;
+        }
+
+        .title{
+            position: fixed;
+            display: inline-grid;
+            top: 6vw;
+            left: 2vw;
+            grid-template-columns: 48vw 48vw;
+            grid-template-rows: 12vh;
+            color: #FFFFFF;
+            font-family: myFont;
+            font-size: 3vw;
+            text-align: center;
+            line-height: 12vh;
+            border-bottom: 2px solid #E68E8E;
+        }
+        .hr1{
+            position: fixed;
+            top: 6vw;
+            left: 2vw;
+            width: 1;
+            height: 88vh;
+            border: 1px solid #E68E8E;
+        }
+        .hr3{
+            position: fixed;
+            top: 6vw;
+            left: 50vw;
+            width: 1;
+            height: 88vh;
+            border: 1px solid #E68E8E;
+        }
+        .hr5{
+            position: fixed;
+            top: 6vw;
+            left: 98vw;
+            width: 1;
+            height: 88vh;
+            border: 1px solid #E68E8E;
+        }
+        .file{
+            background-color:  #5A8EB5;
+            border-radius: 10px;
+            width: 44vw;
+            height: 15vh;
+            color: #FFFFFF;
+            font-family: myFont;
+            font-size: 2.5vw;
+            text-align: center;
+            line-height: 15vh;
+
+        }
+        .file:hover{
+            background-color: #1b1b1b;
+            border: 2px solid #5A8EB5;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header"> System - 0528 </header>
+    <hr class="hr">
+
+    <div class="title">
+        <div>note (실습, 수업 정리)</div>
+        <div>presentation (발표)</div>
+    </div>
+    <hr class = "hr1"> <hr class = "hr3"> <hr class = "hr5">
+
+    <div class="file" onclick="location.href='https://22seul.github.io/System/0528/note';" 
+    style="position: fixed; top: 27vh; left: 4vw;">13주차 - 2024.05.28</div>
+    <div class="file" onclick="location.href='https://22seul.github.io/System/0528/presentation';" 
+    style="position: fixed; top: 27vh; left: 52vw;">발표 - booting과정(init, systemd 포함)</div>
+</body>
+</html>
